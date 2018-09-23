@@ -1,0 +1,134 @@
+<!-- VeriComm -->
+<PROJECT>
+	<VERSION value="1.1.0.9"/>
+	<FILELIST>
+		<INPUTFILE value="SignalInput1.data"/>
+		<OUTPUTFILE value="SignalOutput1.data"/>
+		<PININFOFILE TYPE="Xilinx ISE UCF File" value="io.ucf"/>
+		<USERINPUTFILE>
+			<COUNT value="3"/>
+			<WAVEFORMINPUTFILE>
+				<COUNT value="1"/>
+				<WAVEFORMINPUTMODULE value="ASCII Text File"/>
+				<WAVEFORMINPUTTYPE value="0"/>
+				<USERWAVEFORMINPUTFILE NAME="in" value="" TYPE="Show_Hex"/>
+			</WAVEFORMINPUTFILE>
+			<WAVEFORMINPUTFILE>
+				<COUNT value="1"/>
+				<WAVEFORMINPUTMODULE value="VHDL Testbench Text File"/>
+				<WAVEFORMINPUTTYPE value="1"/>
+				<USERWAVEFORMINPUTFILE NAME="BusName" value="" TYPE="Show_Hex"/>
+			</WAVEFORMINPUTFILE>
+			<WAVEFORMINPUTFILE>
+				<COUNT value="1"/>
+				<WAVEFORMINPUTMODULE value="Verilog HDL Testbench Text File (EX.)"/>
+				<WAVEFORMINPUTTYPE value="1"/>
+				<USERWAVEFORMINPUTFILE NAME="BusName" value="" TYPE="Show_Hex"/>
+			</WAVEFORMINPUTFILE>
+		</USERINPUTFILE>
+	</FILELIST>
+	<FPGATYPE value="XC6SLX25"/>
+	<ZOOM value="1"/>
+	<SKIP value="0"/>
+	<SHOWBITSTART value="0x01"/>
+	<SELECTEDBIT value="0x02"/>
+	<SHOWPIN>
+		<COUNT value="0"/>
+	</SHOWPIN>
+	<SHOWBUS>
+	<COUNT value="2"/>
+	<BUS>
+		<BUSNAME value="in"/>
+		<BUSPINCOUNT value="8"/>
+		<SHOWVALUE value="Show_Hex"/>
+		<PIN value="in[0]"/>
+		<PIN value="in[1]"/>
+		<PIN value="in[2]"/>
+		<PIN value="in[3]"/>
+		<PIN value="in[4]"/>
+		<PIN value="in[5]"/>
+		<PIN value="in[6]"/>
+		<PIN value="in[7]"/>
+	</BUS>
+	<BUS>
+		<BUSNAME value="O"/>
+		<BUSPINCOUNT value="8"/>
+		<SHOWVALUE value="Show_Hex"/>
+		<PIN value="O[0]"/>
+		<PIN value="O[1]"/>
+		<PIN value="O[2]"/>
+		<PIN value="O[3]"/>
+		<PIN value="O[4]"/>
+		<PIN value="O[5]"/>
+		<PIN value="O[6]"/>
+		<PIN value="O[7]"/>
+	</BUS>
+	</SHOWBUS>
+	<SHOWPINBUSSEQUENCE>
+		<COUNT value="2"/>
+		<BUSNAME value="in"/>
+		<BUSNAME value="O"/>
+	</SHOWPINBUSSEQUENCE>
+	<CLOCK NAME="clk" POS="1006"/>
+	<ASIGNPIN>
+		<PININFO NAME="in[0]" SHOW="0" OURPOS="0" TYPE="INPUT"/>
+		<PININFO NAME="in[1]" SHOW="0" OURPOS="1" TYPE="INPUT"/>
+		<PININFO NAME="in[2]" SHOW="0" OURPOS="2" TYPE="INPUT"/>
+		<PININFO NAME="in[3]" SHOW="0" OURPOS="3" TYPE="INPUT"/>
+		<PININFO NAME="in[4]" SHOW="0" OURPOS="4" TYPE="INPUT"/>
+		<PININFO NAME="in[5]" SHOW="0" OURPOS="5" TYPE="INPUT"/>
+		<PININFO NAME="in[6]" SHOW="0" OURPOS="6" TYPE="INPUT"/>
+		<PININFO NAME="in[7]" SHOW="0" OURPOS="7" TYPE="INPUT"/>
+		<PININFO NAME="O[0]" SHOW="0" OURPOS="54" TYPE="OUTPUT"/>
+		<PININFO NAME="O[1]" SHOW="0" OURPOS="55" TYPE="OUTPUT"/>
+		<PININFO NAME="O[2]" SHOW="0" OURPOS="56" TYPE="OUTPUT"/>
+		<PININFO NAME="O[3]" SHOW="0" OURPOS="57" TYPE="OUTPUT"/>
+		<PININFO NAME="O[4]" SHOW="0" OURPOS="58" TYPE="OUTPUT"/>
+		<PININFO NAME="O[5]" SHOW="0" OURPOS="59" TYPE="OUTPUT"/>
+		<PININFO NAME="O[6]" SHOW="0" OURPOS="60" TYPE="OUTPUT"/>
+		<PININFO NAME="O[7]" SHOW="0" OURPOS="61" TYPE="OUTPUT"/>
+	</ASIGNPIN>
+	<ASIGNBUS>
+	<COUNT value="2"/>
+	<BUSINFO>
+		<BUSNAME value="in"/>
+		<BUSPINCOUNT value="8"/>
+		<BUSPIN USERPOS="0" OURPOS="0"/>
+		<BUSPIN USERPOS="1" OURPOS="1"/>
+		<BUSPIN USERPOS="2" OURPOS="2"/>
+		<BUSPIN USERPOS="3" OURPOS="3"/>
+		<BUSPIN USERPOS="4" OURPOS="4"/>
+		<BUSPIN USERPOS="5" OURPOS="5"/>
+		<BUSPIN USERPOS="6" OURPOS="6"/>
+		<BUSPIN USERPOS="7" OURPOS="7"/>
+	</BUSINFO>
+	<BUSINFO>
+		<BUSNAME value="O"/>
+		<BUSPINCOUNT value="8"/>
+		<BUSPIN USERPOS="0" OURPOS="54"/>
+		<BUSPIN USERPOS="1" OURPOS="55"/>
+		<BUSPIN USERPOS="2" OURPOS="56"/>
+		<BUSPIN USERPOS="3" OURPOS="57"/>
+		<BUSPIN USERPOS="4" OURPOS="58"/>
+		<BUSPIN USERPOS="5" OURPOS="59"/>
+		<BUSPIN USERPOS="6" OURPOS="60"/>
+		<BUSPIN USERPOS="7" OURPOS="61"/>
+	</BUSINFO>
+	</ASIGNBUS>
+	<CONDITIONALSAVE>
+	<COUNT value="1"/>
+	<SIGNAL>
+		<COUNT value="0"/>
+		<SIGNALNAME value="O"/>
+		<CHECKBOX value="0"/>
+		<SAVEAFTERTRIGGER value="0"/>
+	</SIGNAL>
+	</CONDITIONALSAVE>
+	<CONDITIONALSTOP>
+		<COUNT value="0"/>
+		<CHECKBOX value="0"/>
+	</CONDITIONALSTOP>
+	<COMPAREFILELIST>
+	<COUNT value="0"/>
+	</COMPAREFILELIST>
+</PROJECT>

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Lab4\io\io.ncd
+OUTFILE=D:\Lab4\io\io.bit
+FAMILY=Spartan6
+PART=xc6slx25-2ftg256
+WORKINGDIR=D:\Lab4\io
+LICENSE=WebPack
+USER_INFO=__0_0_0
