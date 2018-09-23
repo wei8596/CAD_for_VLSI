@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jun 13 15:36:19 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "F2" LEVEL 1;
+COMP "O<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "O<1>" LOCATE = SITE "B3" LEVEL 1;
+COMP "O<2>" LOCATE = SITE "A2" LEVEL 1;
+COMP "O<3>" LOCATE = SITE "B2" LEVEL 1;
+COMP "O<4>" LOCATE = SITE "B1" LEVEL 1;
+COMP "O<5>" LOCATE = SITE "C1" LEVEL 1;
+COMP "O<6>" LOCATE = SITE "C2" LEVEL 1;
+COMP "O<7>" LOCATE = SITE "C3" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/VLSI0613/TESTLED/test.xst" -ofn "D:/VLSI0613/TESTLED/test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc D:/VLSI0613/led/test.ucf -p xc6slx25-ftg256-2 test.ngc test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_map.ncd test.ngd test.pcf 
+par -w -intstyle ise -ol high -mt off test_map.ncd test.ncd test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml test.twx test.ncd -o test.twr test.pcf 
+bitgen -intstyle ise -f test.ut test.ncd 
+bitgen -intstyle ise -f test.ut test.ncd 
