@@ -1,0 +1,82 @@
+*********************************
+*	Resource Constraint	*
+*				*
+*	Mult Constraint:2	*
+*	Add Constraint:2	*
+*				*
+*********************************
+State: 1	v 10 = v  1 + v  2
+State: 1	v 11 = v  6 + v  7
+State: 2	v 12 = v 10 + v  3
+State: 2	v 13 = v 11 + v  8
+State: 3	v 15 = v 13 + v  9
+State: 3	v 14 = v 12 + v  4
+State: 4	v 16 = v 14 + v 15
+State: 5	v 18 = v 16 * v 16
+State: 5	v 17 = v 16 * v 16
+State: 6	v 19 = v 17 + v 12
+State: 6	v 23 = v 18 + v 15
+State: 7	v 22 = v 19 + v 16
+State: 7	v 20 = v 12 + v 19
+State: 8	v 25 = v 23 + v 15
+State: 8	v 24 = v 22 + v 23
+State: 8	v 21 = v 20 * v 20
+State: 9	v 26 = v 10 + v 21
+State: 9	v 27 = v 25 * v 25
+State: 10	v 29 = v 26 + v 19
+State: 10	v 28 = v 10 + v 26
+State: 11	v 30 = v 28 * v 28
+State: 11	v 32 = v 27 + v  9
+State: 11	v 31 = v 29 + v  5
+State: 12	v 33 = v 31 * v 31
+State: 12	v 35 = v 32 + v  9
+State: 12	v 34 = v 23 + v 32
+State: 13	v 38 = v 35 * v 35
+State: 13	v 37 = v 11 + v 34
+State: 13	v 36 = v  1 + v 30
+State: 14	v 41 = v 37 * v 37
+State: 14	v 40 = v 33 + v  5
+State: 14	v 39 = v 36 + v 26
+State: 15	v 42 = v 31 + v 40
+State: 15	v 43 = v 32 + v 38
+*********************************
+*	Resource Constraint	*
+*				*
+*	Mult Constraint:2	*
+*	Add Constraint:2	*
+*				*
+*********************************
+State: 1	v 10 = v  1 + v  2
+State: 1	v 11 = v  6 + v  7
+State: 2	v 12 = v 10 + v  3
+State: 2	v 13 = v 11 + v  8
+State: 3	v 15 = v 13 + v  9
+State: 3	v 14 = v 12 + v  4
+State: 4	v 16 = v 14 + v 15
+State: 5	v 18 = v 16 * v 16
+State: 5	v 17 = v 16 * v 16
+State: 6	v 19 = v 17 + v 12
+State: 6	v 23 = v 18 + v 15
+State: 7	v 22 = v 19 + v 16
+State: 7	v 20 = v 12 + v 19
+State: 8	v 25 = v 23 + v 15
+State: 8	v 24 = v 22 + v 23
+State: 8	v 21 = v 20 * v 20
+State: 9	v 26 = v 10 + v 21
+State: 9	v 27 = v 25 * v 25
+State: 10	v 29 = v 26 + v 19
+State: 10	v 28 = v 10 + v 26
+State: 11	v 30 = v 28 * v 28
+State: 11	v 32 = v 27 + v  9
+State: 11	v 31 = v 29 + v  5
+State: 12	v 33 = v 31 * v 31
+State: 12	v 35 = v 32 + v  9
+State: 12	v 34 = v 23 + v 32
+State: 13	v 38 = v 35 * v 35
+State: 13	v 37 = v 11 + v 34
+State: 13	v 36 = v  1 + v 30
+State: 14	v 41 = v 37 * v 37
+State: 14	v 40 = v 33 + v  5
+State: 14	v 39 = v 36 + v 26
+State: 15	v 42 = v 31 + v 40
+State: 15	v 43 = v 32 + v 38
